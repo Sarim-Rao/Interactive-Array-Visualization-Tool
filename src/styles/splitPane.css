@@ -1,0 +1,15 @@
+.panel-resize-handle {
+  width: 8px;
+  background-color: #e2e8f0;
+  transition: background-color 150ms ease;
+  margin: 0 -4px;
+}
+
+.panel-resize-handle:hover {
+  background-color: #93c5fd;
+}
+
+.panel {
+  overflow: hidden;
+  height: 100%;
+}
